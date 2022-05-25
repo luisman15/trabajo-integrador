@@ -7,5 +7,5 @@ var descuento = document.getElementById('inputCategoria').value;
 var precio = cantidadTicket * (precioTicket - ((precioTicket * descuento) / 100));
 
 
-document.getElementById('compraTotal').value ="Total a pagar: $" * precio;
+document.getElementById('compraTotal').value ="Total a pagar: $" + precio;
 }
